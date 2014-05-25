@@ -8,7 +8,7 @@ The dataset is from a Human Activity Recognition database built from the recordi
     5	STANDING
     6	LAYING
 The  dataset was randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data.
----------------------------------------------------------------------
+
 The dataset included the following files:
 
 - 'README.txt'
@@ -22,9 +22,9 @@ The dataset included the following files:
 The following files were available for the train and test data. Their descriptions are equivalent. 
 
 - 'train/subject_train.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
-- 'train/Inertial Signals/total_acc_x_train.txt :The acceleration signal from the smartphone accelerometer X axis in standard gravity units 'g'. Every row shows a 128 element vector. The same description applies for the 'total_acc_x_train.txt' and 'total_acc_z_train.txt' files for the Y and Z axis. 
-- 'train/Inertial Signals/body_acc_x_train.txt': The body acceleration signal obtained by subtracting the gravity from the total acceleration
-- 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second. 
+- train/Inertial Signals/totalacc_x_train.txt :The acceleration signal from the smartphone accelerometer X axis in standard gravity units g Every row shows a 128 element vector. The same description applies for the -total_acc_x_train.txt and total_acc_z_train.txt files for the Y and Z axis. 
+- train/Inertial Signals/body_acc_x_train.txt: The body acceleration signal obtained by subtracting the gravity from the total acceleration
+- train/Inertial Signals/body_gyro_x_train.txt: The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second. 
 
 -----------------------------------------------------------------------
 Objectives
@@ -41,11 +41,11 @@ The final dataset includes the following
 - 'UCI HAR Dataset/': holds the raw data from the online repository.
 - 'datasets/average_humanActivityData.txt': average of each variable for each activity and each subject.
 - 'datasets/tidy_humanActivityData.txt': The tidy data with the measurements on the mean and standard deviation for each measurement.
-----------------------------------------------------------------------------------------------------------
+
 The descriptions of the variables in the tidy dataset(tidy_humanActivityData.txt) are the mean and standard deviation of
 - Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
 - Triaxial Angular velocity from the gyroscope. 
 - Its activity label. 
-----------------------------------------------------------------------------------------------------------
+
 The description of the variables in the average dataset(average_humanActivityData.txt) is the average of each activity (Activity-variable) per Triaxial accelaration and triaxial angular velocity for the mean and standard deviation.
 
